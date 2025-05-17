@@ -1,0 +1,11 @@
+# This file was auto-generated from iller.yaml by Dist::Iller on 2025-01-11 11:14:44 UTC.
+# The following configs were used:
+# * Dist::Iller::Config::Author::CSSON: 0.0328
+
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
+/Syntax-Feature-IsBefore-*
