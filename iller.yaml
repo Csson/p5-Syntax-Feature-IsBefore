@@ -1,0 +1,43 @@
+---
+doctype: global
+
+distribution_name: Syntax-Feature-IsBefore
+---
+doctype: dist
+
+header:
+  name: Syntax-Feature-IsBefore
+  copyright_year: 2025
+
+prereqs:
+  runtime:
+    requires:
+      - perl: 5.040000
+      - Sub::Infix
+      - DateTime
+      - Exporter
+
+
+  test:
+    requires:
+     - syntax
+
+plugins:
+  - +config: Author::CSSON
+
+
+---
+doctype: weaver
+
+plugins:
+  - +config: Author::CSSON
+    splint: 0
+
+---
+doctype: cpanfile
+
+---
+doctype: gitignore
+
+config: Author::CSSON
+
